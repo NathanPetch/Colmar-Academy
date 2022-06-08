@@ -1,3 +1,6 @@
+html {
+	font-family: courier New;
+}
 
 .school-name-colmar {
 	font-weight: bold;
@@ -54,7 +57,8 @@ header li {
 
 #banner {
 	background-color: lightgray;
-}
+	margin-top: 25px;
+	}
 
 	
 .banner-container {
@@ -82,9 +86,9 @@ header li {
     padding: 15px 90px;
 	border-radius: 15px;
 	background-color: rgb(155, 155, 155);
-  text-align: center;
-  color: white;	
-  transition: background-color 0.5s ease-out;
+	text-align: center;
+	color: white;	
+	transition: background-color 0.5s ease-out;
 }
 
 .banner-text a:hover {
@@ -103,11 +107,15 @@ h4 {
 	font-size: 26px;
 }
 
+h5 {
+	font-size: 20px;
+}
+
 .information-container {
 	display: flex;
-	padding-left: 16px;
 	height: 800px;
 	width: 100%;
+	margin-bottom: 32px;
 }
 
 .left-information {
@@ -126,12 +134,15 @@ h4 {
 	height: auto;
 	padding: 16px 16px;
 	border-radius: 30px;
-}
+	}
 
 .content-box {
 	display: inline-flex;
 	align-items: center;
 	width: 100%;
+	height: 266px;
+	border-left: 0.5px solid gainsboro; 
+	transition: background-color 300ms ease-out;
 	}
 
 .content-box:hover {
@@ -159,3 +170,37 @@ h4 {
 .right-information-text a {
 	color: blue;
 	} 
+	
+#learning h3 {
+	text-align: center;
+	padding: 32px;
+}
+
+.learning-container {
+	padding: 32px 72px;
+		
+}
+
+.learning-container h5 {
+	margin: 0px;
+}
+
+.learning-container img {
+	padding: 16px 32px;
+	width: 90%;
+	height: auto;
+	}
+
+.course-row {
+	display: flex;
+}
+
+.learning-box {
+	flex-basis: 33%;
+	text-align: center;
+}
+
+.text-content {
+	padding: 8px 16px;
+}
+
